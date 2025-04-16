@@ -1,0 +1,121 @@
+body{
+    font-family: "Fustat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Titlle {
+    position: absolute;
+    top: 13rem;
+    left: 39rem;
+    font-weight: 500;
+    background: linear-gradient(to left, #7663F2, #C0B6FF, #4A3E9A, #4A31EF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formGerar {
+    position: absolute;
+    top: -3.50rem;
+    left: 18rem;
+}
+
+.inpGerar {
+    overflow: hidden;
+    width: 550px;
+    height: 240px;
+    background-color: #151414;
+    opacity: 50%;
+    border: 0.5px solid #D7D7D7;
+    border-radius: 15px 0px 0px 15px;
+    padding: 3.2rem 1rem 0rem 2rem;
+    color: white;
+    font-size: 18px;
+}
+
+.inpGerar::placeholder {
+    font-family: "Fustat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    font-size: 16px;
+    top: 1.8rem;
+    left: 2rem;
+}
+
+.containerBtnIcon {
+    display: flex;
+    position: absolute;
+    left: 25rem;
+    gap: 1rem;
+    flex-wrap: nowrap; /* Padrão: botões na mesma linha */
+}
+
+.containerBtnIcon.breakLine {
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: flex-start; /* Alinha os botões ao início */
+    margin-top: 1rem;
+     /* Ajuste o espaçamento entre linhas */
+}
+
+
+.btnMicrofone,
+.btnSend {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.microfone,
+.send {
+    width: 25px;
+    height: 25px;
+    margin: 1.5rem 0rem 0rem 2rem;
+}
+
+.containerInputTitle {
+    width: 350px;
+    height: 240px;
+    background-color: #151414;
+    opacity: 50%;
+    border: 0.5px solid #D7D7D7;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+    left: 34.3rem;
+
+}
+
+.inputTitle{
+    width: 300px;
+    height: 46px;
+    margin: 1.8rem 0rem 0rem 1.45rem ;
+    background: transparent;
+    border: 0.5px solid #d7d7d7;
+    border-radius: 5px;
+    padding-left: 1rem;
+    color: white;
+}
+.inputTitle::placeholder{
+    position: absolute;
+    left: 1rem;
+    font-weight: 300;
+}
+
+.btnImg, .btnMascaras{
+    background: transparent;
+    width: 120px;
+    height: 48px;
+    border: 0.5px solid #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 6px;
+    margin: 1.5rem 0rem 0rem 1.6rem;
+}
+
+.btnImg:hover, .btnMascaras:hover{
+    cursor: pointer;
+}

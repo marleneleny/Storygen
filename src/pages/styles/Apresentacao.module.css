@@ -1,0 +1,153 @@
+
+  body{
+    font-family: "Fustat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #321F61 28deg, #302673 33deg, #161840 25deg,#321F61 14deg);
+    
+  }
+
+  .logo{
+    width: 120px;
+    height: 105.08;
+    margin-left: 3.25rem;
+  }
+h2{
+    font-size: 38px;
+    margin: 80px 0px 0px 70px;
+}
+
+.curveLine{
+    position: absolute;
+    width: 11rem;
+    height: 4rem;
+    top: 18rem;
+    left: 9rem;
+    transform: rotate(20deg);
+}
+
+.pg{
+    font-size: 18px;
+    margin: 70px 0px 0px 70px;
+    width: 499px;
+}
+
+.btn1{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #7663F2;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 28px 0px 0px 74px;
+    transition: all 0.5s linear;
+    
+}
+.btn1:hover{
+    background-color:  #4262bd;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn2 span:nth-child(1){
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    top: 32rem; 
+    background: linear-gradient(to right, #002b9d, #34ffea);
+    animation: animete1 2s linear infinite;
+}
+.btn2 span:nth-child(2){
+    position: absolute;
+    width: 5px;
+    height: 26px;
+    top: 33rem; 
+    left: 31.5rem;
+    background: linear-gradient(to bottom, #002b9d, #34ffea);
+    animation: animete2 2s linear infinite;
+    animation-delay: 1.5s;
+}
+.btn2 span:nth-child(3){
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    top: 35.4rem;
+    background: linear-gradient(to left, #002b9d, #34ffea);
+    animation: animete3 2s linear infinite;
+}
+.btn2 span:nth-child(4){
+    position: absolute;
+    width: 5px;
+    height: 26px;
+    top: 32.7rem; 
+    left: 18.7rem;
+    background: linear-gradient(to bottom, #002b9d, #34ffea);
+    animation: animete4 2s linear infinite;
+    animation-delay: 1.5s;
+}
+
+
+@keyframes animete1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@keyframes animete2{
+    0%{
+        transform: translateY(-90%);
+    }
+    100%{
+        transform: translateY(48%);
+    }
+}
+@keyframes animete3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes animete4{
+    0%{
+        transform: translateY(90%);
+    }
+    100%{
+        transform: translateY(-48%);
+    }
+}
+.btn2{
+    width: 200px;
+    height: 50px;
+    border: 1px solid  #7663F2;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 30px;
+    box-shadow: 0 20px  50px rgb(255 255 255 / 5%);
+    transition: all 0.5s linear;
+}
+.btn2:hover{
+    border: 3px solid    #4262bd;;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.containerIlust{
+    position: absolute;
+    top: 4.5rem;
+    left: 46rem;
+}
+.ilustracoes{
+    width: 240px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+
+ 

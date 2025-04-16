@@ -1,0 +1,72 @@
+body{
+    overflow-x: hidden;
+}
+
+
+nav {
+    background: linear-gradient(to bottom, #130F2C, #321F61);
+    width: 10.31rem;
+    height: 100vh;
+}
+
+.logo {
+    width: 7.5rem;
+    height: 6.63rem;
+    margin-left: 20px ;
+}
+
+.barra {
+    width: 6.2rem;
+    border: 1px solid #584AAF;
+    position: absolute;
+    top: 5rem;
+    left: 1.9rem;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.IconContainer{
+    position: relative;
+    left: 1.6rem;
+    margin-top: 1.6rem;
+    width: 100px;
+    height: 80px;
+    margin-left: 0rem;
+    transition: all 1s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.IconContainer:hover{
+    width: 100px;
+    height: 80px;
+    background-color: #d7d7d7;
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.circle{
+    position: absolute;
+    top: -2.3rem;
+    left: 74.5rem;
+    width: 13.4rem;
+    height: 12.8rem;
+    border-radius: 100px; 
+    background: radial-gradient(#7663F2,#150b55);
+}
+.contentCircle{
+    position: absolute;
+    top: 2.5rem;
+    transform: rotate(20deg);
+    left: 75rem;
+    width: 6rem;
+    height: 5rem;
+}

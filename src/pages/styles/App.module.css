@@ -1,0 +1,217 @@
+:root{
+  --Branco: #ffffff;
+  --Purpura-100: #161840;
+  --Purpura-70: #321F61;
+  --Purpura-50: #7663F2;
+}
+
+*{
+  padding:  0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: linear-gradient(to bottom,#161840,#321F61);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--Branco);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.logo{
+  width: 120px;
+  height: 105.08;
+  position: absolute;
+  top: 0;
+  margin-left: 3.25rem;
+}
+
+.Title{
+  font-size: 32px;
+  font-family: "Fustat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pg{
+  font-size: 18px;
+  font-family: "Fustat", sans-serif;
+  position: absolute;
+  top: 13.9rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.livro{
+  width: 158px;
+  height: 146px;
+  transform: rotate(-114deg);
+  position: absolute;
+  right: -1.3rem;
+  top: 0;
+  
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25.3rem;
+}
+
+.inputContainer{
+  display: flex;
+}
+
+.Iconemail{
+  top: 28.6rem;
+  left: 28.50rem;
+  position: absolute;
+  
+}
+
+.Iconsenha{
+  top: 34.3rem;
+  left: 28.50rem;
+  position: absolute;
+  
+}
+
+.Icongoogle{
+  margin: 1rem 0rem 0rem 4rem;
+  position: absolute;
+  top: 19rem;
+  left: 26.50rem;
+  width: 30px;
+  height: 30px;
+}
+
+.btnGoogle{
+  font-family: "Fustat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--Branco);
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px #000;
+  position: absolute;
+  top: 19rem;
+  left: 26.8rem;
+  border: none;
+  width: 400px;
+  height: 62px;
+  background-color: rgba(228, 228, 228, 0.14);
+}
+
+.btnGoogle:hover{
+  cursor: pointer;
+}
+
+.inpEmail,.inpSenha{
+  font-family: "Fustat", sans-serif;
+  color: var(--Branco);
+  font-size: 18px;
+  padding-left: 55px;
+  border-radius: 10px;
+  margin-top: 33px;
+  border: none;
+  width: 400px;
+  height: 62px;
+  background-color: rgba(228, 228, 228, 0.14);
+}
+
+.inpGoogle::placeholder{
+  font-family: "Fustat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--Branco);
+  opacity: 1;
+}
+
+.inpSenha::placeholder{
+  font-family: "Fustat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding-left: 0.3rem;
+  font-size: 1rem;
+  color: var(--Branco);
+  opacity: 1;
+}
+
+.inpEmail::placeholder{
+  font-family: "Fustat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding-left: 0.3rem;
+  font-size: 1rem;
+  color: var(--Branco);
+  opacity: 1;
+}
+
+.hr1 {
+  left: 27rem;
+  top: 25.3rem;
+  position: absolute;
+  color: var(--Branco);
+  background-color: var(--Branco);
+  width: 10rem;
+  height: 1px;
+}
+
+
+.hr2 {
+  top: 25.3rem;
+  left: 41.50rem;
+  position: absolute;
+  color: var(--Branco);
+  background-color: var(--Branco);
+  width: 10rem;
+  height: 1px;
+}
+
+.or{
+  font-size: 18px;
+  font-family: "Fustat", sans-serif;
+  position: absolute;
+  top: 24.5rem;
+  left: 38.90rem;
+}
+
+.pg2{
+  font-size: 18px;
+  font-family: "Fustat", sans-serif;
+  text-align: center;
+  margin: 28px 0px 23px 0px;
+}
+
+.btn{
+  color: var(--Branco);
+  font-size: 18px;
+  font-family: "Fustat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: var(--Purpura-50);
+  margin-bottom: 3rem;
+  border: none;
+  border-radius: 10px;
+  width: 240px;
+  height: 50px;
+}
+
+
+
+
+
