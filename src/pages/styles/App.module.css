@@ -72,14 +72,14 @@ form{
 
 .Iconemail{
   top: 28.6rem;
-  left: 28.50rem;
+  left: 31rem;
   position: absolute;
   
 }
 
 .Iconsenha{
   top: 34.3rem;
-  left: 28.50rem;
+  left: 31rem;
   position: absolute;
   
 }
@@ -88,7 +88,7 @@ form{
   margin: 1rem 0rem 0rem 4rem;
   position: absolute;
   top: 19rem;
-  left: 26.50rem;
+  left: 28.5rem;
   width: 30px;
   height: 30px;
 }
@@ -103,7 +103,7 @@ form{
   box-shadow: 0px 2px 4px #000;
   position: absolute;
   top: 19rem;
-  left: 26.8rem;
+  left: 29.6rem;
   border: none;
   width: 400px;
   height: 62px;
@@ -161,7 +161,7 @@ form{
 }
 
 .hr1 {
-  left: 27rem;
+  left: 30rem;
   top: 25.3rem;
   position: absolute;
   color: var(--Branco);
@@ -173,7 +173,7 @@ form{
 
 .hr2 {
   top: 25.3rem;
-  left: 41.50rem;
+  left: 44rem;
   position: absolute;
   color: var(--Branco);
   background-color: var(--Branco);
@@ -186,7 +186,7 @@ form{
   font-family: "Fustat", sans-serif;
   position: absolute;
   top: 24.5rem;
-  left: 38.90rem;
+  left: 41.5rem;
 }
 
 .pg2{
